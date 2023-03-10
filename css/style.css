@@ -1,6 +1,7 @@
-<body>
-     <h1>Olá Mundo</h1>
-    <p>como treinar seu dragãGo</p>
-     
-</body>
-
+body{
+    background-color: aqua;
+}
+h1{
+    color: blue;
+    text-align: center;
+}
