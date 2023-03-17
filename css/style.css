@@ -10,3 +10,9 @@ header{
     width:100%;
     background-color: aqua;
 }
+
+.logo{
+    color: #ff0000;
+    text-align: center;
+    font-size: 1.4em;
+}
