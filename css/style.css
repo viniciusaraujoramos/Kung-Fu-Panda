@@ -1,5 +1,5 @@
 body{
-    background-color: #A64521;
+    background-color: #9CD3D9;
 }
 h1{
     color: rgb(0, 0, 0);
@@ -8,17 +8,17 @@ h1{
 
 header{
     width:100%;
-    background-color: #592C1C;
+    background-color: #59B5D9;
 }
 
 .logo{
-    color: #F2C36B;
+    color: #000000;
     text-align: center;
     font-size: 1.4em;
 }
 
 nav{
-    color: #F2DCC2;
+    color: #000000;
     text-align: center;
     font-size: 1.4em;
 }
