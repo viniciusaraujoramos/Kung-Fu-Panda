@@ -2,23 +2,26 @@ body{
     background-color: #9CD3D9;
 }
 h1{
-    color: rgb(0, 0, 0);
+    color: #ffffff;
     text-align: center;
+    font-family: 'Sigmar', cursive;  
+    font-size: 11mm; 
+    al
 }
 
 header{
     width:100%;
-    background-color: #59B5D9;
+    background-color: #9CD3D9;
 }
 
 .logo{
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     font-size: 1.4em;
 }
 
 nav{
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     font-size: 1.4em;
 }
@@ -29,20 +32,32 @@ nav{
 }
 
 .container{
-    background-color: #F27F3D;
+    background-color: #01402E;
     width: 80%;
     margin: auto;
 }
 
 .filme1{
-    background-color: #592C1C;
+    background-color: #01402E;
     width: 80%;
     margin: auto;
 }
 
 footer{
-    background-color: #F27F3D;
-    color: #F2DCC2;
+    background-color: #01402E;
+    color: #9CD3D9;
     font-size: 1.3em;
     text-align: center;
+}
+
+p{
+    line-height: 1.5;
+    font-family: 'Sigmar', cursive;
+    padding-left: 1.5;
+    padding-right: 1.5;
+}
+
+.listameio{
+    font-family: 'Sigmar', cursive;
+    line-height: 1.2;
 }
