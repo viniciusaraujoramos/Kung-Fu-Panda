@@ -6,7 +6,7 @@ h1{
     text-align: center;
     font-family: 'Sigmar', cursive;  
     font-size: 11mm; 
-    al
+    line-height: 1.2;
 }
 
 header{
@@ -15,7 +15,6 @@ header{
 }
 
 .logo{
-    color: #ffffff;
     text-align: center;
     font-size: 1.4em;
 }
@@ -45,7 +44,7 @@ nav{
 
 footer{
     background-color: #01402E;
-    color: #9CD3D9;
+    color: #ffffff;
     font-size: 1.3em;
     text-align: center;
 }
