@@ -1,5 +1,5 @@
 body{
-    background-color: #9CD3D9;
+    background-color: #ffffff;
     background-attachment: fixed;
 }
 
@@ -13,7 +13,8 @@ h1,h2{
 
 header{
     width:100%;
-    background-color: #9CD3D9;
+    background-color: #ffffff;
+    padding: 1.2%;
 }
 
 .fundo{
@@ -22,7 +23,7 @@ header{
 }
 
 nav{
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     font-size: 1.4em;
 }
@@ -34,13 +35,13 @@ nav{
 .container{    
     width: 80%;
     margin: auto;
-    color: #fff;
+    color: #000000;
 }
 
 footer{
-    background-color: black;
-    color: #fff;
-    font-size: 1.3em;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    font-size: 1.4em;
     text-align: center;    
 }
 
@@ -54,12 +55,18 @@ p{
 
 .listameio{
     font-family: 'Sigmar', cursive;
-    line-height: 1.2;
+    line-height: 1.5;
+    font-size: 1.2em;
 }
 
 section{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     padding-right: 2%;
     padding-left: 2%;
-    
+}
+
+.logo{
+    color: #000000;
+    text-align: center;
+    font-size: 1.4em;
 }
