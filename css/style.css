@@ -28,8 +28,9 @@ nav{
     font-size: 1.4em;
 }
 
-.Pô{
-    border-width: 90%;
+.Po{
+    width: 90%;
+    text-align: center;
 }
 
 .container{    
@@ -42,7 +43,8 @@ footer{
     background-color: #E7EDED;
     color: #0D0D0D;
     font-size: 1.4em;
-    text-align: center;    
+    text-align: center;
+    width: 100%;    
 }
 
 p{
@@ -67,4 +69,9 @@ section{
     color: #0D0D0D;
     text-align: center;
     font-size: 1.4em;
+}
+
+.dream{
+    width: 60%;
+    text-align: center;
 }
