@@ -87,6 +87,7 @@ section{
 
 .i{
     width: 3%;
+    float: right;
 }
 
 .contato{
@@ -96,3 +97,26 @@ section{
 .dreamw{
     width: 100%;
 }
+
+.tigresa{
+    width: 50%;
+}
+
+.linha{
+    display: flex;
+    flex-direction: row wrap;
+    text-align: center;
+}
+
+.col-6{
+    width: 60%;
+}
+
+@media (max-width: 800px) {
+    .linha{
+        flex-direction: column;
+    }
+     .col-6 {
+      flex: 100%;
+    }
+  }
