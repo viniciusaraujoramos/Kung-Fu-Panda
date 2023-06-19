@@ -178,7 +178,7 @@ table {
   }
 
   .card-col7{
-    background-image: linear-gradient(to right, #0D0D0D , #E7EDED);
+    background-image: linear-gradient(to right, rgb(182, 175, 175) , #E7EDED);
     width: 90%;
     border-width: 5px;
     box-shadow: 15px 15px 15px 2px rgb(182, 175, 175);
@@ -188,7 +188,7 @@ table {
 }
 
 .card-col8{
-    background-image: linear-gradient(to right, #0D0D0D , #E7EDED);
+    background-image: linear-gradient(to right, rgb(182, 175, 175) , #E7EDED);
     width: 90%;
     border-width: 5px;
     box-shadow: 15px 15px 15px 2px rgb(182, 175, 175);
