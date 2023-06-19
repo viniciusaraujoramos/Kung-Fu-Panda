@@ -180,21 +180,20 @@ table {
   .card-col7{
     background-image: linear-gradient(to right, #0D0D0D , #E7EDED);
     width: 90%;
-    border-style: double;
-    border-color: #000000;
     border-width: 5px;
-    box-shadow: 15px 15px 15px 2px rgb(255, 0, 0);
-    transition: 0.3s;   
-    
+    box-shadow: 15px 15px 15px 2px rgb(182, 175, 175);
+    transition: 0.3s; 
+    border-color: #0D0D0D;
+    border-style:groove;   
 }
 
 .card-col8{
     background-image: linear-gradient(to right, #0D0D0D , #E7EDED);
     width: 90%;
-    border-style: double;
-    border-color: #000000;
     border-width: 5px;
-    box-shadow: 15px 15px 15px 2px rgb(255, 0, 0);
-    transition: 0.3s;   
-    
+    box-shadow: 15px 15px 15px 2px rgb(182, 175, 175);
+    transition: 0.3s;    
+    padding-top: 1.5%;
+    border-color: #0D0D0D;
+    border-style:groove;
 }
