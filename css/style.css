@@ -94,7 +94,7 @@ section{
 }
 
 .dreamw{
-    width: 100%;
+    width: 60%;
 }
 
 .tigresa{
@@ -169,6 +169,10 @@ table {
     padding: 8px;
   }
   
-  tr:nth-child(even) {
-    background-color: #dddddd;
+  th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0D0D0D;
+    color: #E7EDED;
   }
