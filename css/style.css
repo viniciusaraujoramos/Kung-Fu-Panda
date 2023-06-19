@@ -176,3 +176,25 @@ table {
     background-color: #0D0D0D;
     color: #E7EDED;
   }
+
+  .card-col7{
+    background-image: linear-gradient(to right, #0D0D0D , #E7EDED);
+    width: 90%;
+    border-style: double;
+    border-color: #000000;
+    border-width: 5px;
+    box-shadow: 15px 15px 15px 2px rgb(255, 0, 0);
+    transition: 0.3s;   
+    
+}
+
+.card-col8{
+    background-image: linear-gradient(to right, #0D0D0D , #E7EDED);
+    width: 90%;
+    border-style: double;
+    border-color: #000000;
+    border-width: 5px;
+    box-shadow: 15px 15px 15px 2px rgb(255, 0, 0);
+    transition: 0.3s;   
+    
+}
