@@ -197,3 +197,7 @@ table {
     border-color: #0D0D0D;
     border-style:groove;
 }
+
+.listameio{
+    list-style-image: url('../img/bambu.png');
+}
