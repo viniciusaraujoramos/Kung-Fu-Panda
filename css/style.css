@@ -78,7 +78,6 @@ section{
     width: 60%;
     text-align: center;
     float: right;
-    padding-left: 30%;
 }
 
 .github{
@@ -97,7 +96,15 @@ section{
     width: 100%;
 }
 
-.tigresa{
+.tai{
+    width: 50%;
+}
+
+.lutapo{
+    width: 70%;
+}
+
+.lutashifu{
     width: 50%;
 }
 
