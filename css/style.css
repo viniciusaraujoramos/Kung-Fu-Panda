@@ -208,3 +208,8 @@ table {
 .listameio{
     list-style-image: url('../img/bambu.png');
 }
+
+.logotop{
+    width: 20%;
+    text-align: left;
+}
