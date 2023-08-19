@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+    .fixed{
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        background-color: blueviolet;
+        width: 100%;
+        margin-left: 50;
+        z-index: 1;
+        padding-top: 5%;
+    }
+
+    .container{
+        background-color: black;
+        position: relative;
+        padding-top: 500px;
+        padding-left: 500px;
+        padding-bottom: 500px;
+        padding-right: 500px;
+    }
+
+    h1{
+        color: aliceblue;
+    }
+
+    .topl{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .topr{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .center{
+        position: sticky;
+        right: 50%;
+        top: 50%;
+    }   
+
+    .buttonl{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    .buttonr{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    footer{
+        position: fixed;
+        bottom: 0;
+        background-color: brown;
+        width: 100%;
+        padding-left: 50%;
+    }
+    </style>
+</head>
+<body>
+    <header class="fixed">
+        <li>header</li>
+    </header>   
+
+    <div class="container">
+        <h1 class="topl">top left</h1>
+        <h1 class="topr">top right</h1>
+        <h1 class="center">center</h1>
+        <h1 class="buttonl">button left</h1>
+        <h1 class="buttonr">button rigth</h1>
+    </div>
+    <footer>
+        <p>desenvolvido por vinicius</p>
+    </footer>
+</body>
+</html>
