@@ -15,7 +15,7 @@
         left: 0;
         background-color: blueviolet;
         width: 100%;
-        margin-left: 50;
+        text-align: center;
         z-index: 1;
         padding-top: 2%;
         padding-bottom: 2%;
@@ -24,46 +24,53 @@
     .container{
         background-color: black;
         position: relative;
-        padding-top: 500px;
-        padding-left: 500px;
-        padding-bottom: 500px;
-        padding-right: 500px;
-    }
+        padding-top: 50%;
+        padding-left: 50%;
+        padding-bottom: 50%;
+        padding-right: 50%;
 
-    h1{
-        color: aliceblue;
     }
 
     .topl{
         position: absolute;
-        top: 0;
-        left: 0;
+        top: 10%;
+        left: 5%;
+        color: aliceblue;
+
     }
 
     .topr{
         position: absolute;
-        top: 0;
-        right: 0;
+        top: 10%;
+        right: 5%;
+        color: aliceblue;
+
     }
 
     .center{
+        position: -webkit-sticky;
         position: sticky;
-        right: 50%;
-        top: 50%;
-        bottom: 50%;
-        bottom: 50%;
+        top: 0%;
+        color: aliceblue;
+        text-align: center;
+        width: 100%;
+
     }   
 
     .buttonl{
         position: absolute;
-        left: 0;
-        bottom: 0;
+        left: 5%;
+        bottom: 2%;
+        color: aliceblue;
+
     }
 
     .buttonr{
         position: absolute;
-        right: 0;
-        bottom: 0;
+        right: 5%;
+        bottom: 2%;
+        color: aliceblue;
+
     }
 
     footer{
@@ -71,12 +78,17 @@
         bottom: 0;
         background-color: brown;
         width: 100%;
-        padding-left: 50%;
+        text-align: center
     }
 
     .menu{
-        position: center;
+        text-align: center;
     }
+
+    .img{
+        
+    }
+
     </style>
 </head>
 <body>
@@ -85,12 +97,14 @@
     </header>   
 
     <div class="container">
-        <div class="topl"><h1>top left</h1></div>
-        <div class="topr"><h1>top right</h1></div>
-        <div class="center"><h1>center</h1></div>
-        <div class="buttonl"><h1>button left</h1></div>
-        <div class="buttonr"><h1>button rigth</h1></div>
+        <img src="/img/dreamorks.png" alt="">
+        <div class="topl">top left</div>
+        <div class="topr">top right</div>
+        <div class="center">center</div>
+        <div class="buttonl">button left</div>
+        <div class="buttonr">button rigth</div>
     </div>
+    
     <footer>
         <p>desenvolvido por vinicius</p>
     </footer>
