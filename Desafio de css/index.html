@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <style>
-    .fixed{
+    header{
         position: fixed;
         top: 0;
         right: 0;
@@ -17,7 +17,8 @@
         width: 100%;
         margin-left: 50;
         z-index: 1;
-        padding-top: 5%;
+        padding-top: 2%;
+        padding-bottom: 2%;
     }
 
     .container{
@@ -49,6 +50,8 @@
         position: sticky;
         right: 50%;
         top: 50%;
+        bottom: 50%;
+        bottom: 50%;
     }   
 
     .buttonl{
@@ -70,19 +73,23 @@
         width: 100%;
         padding-left: 50%;
     }
+
+    .menu{
+        position: center;
+    }
     </style>
 </head>
 <body>
-    <header class="fixed">
-        <li>header</li>
+    <header>
+        <li class="menu">header</li>
     </header>   
 
     <div class="container">
-        <h1 class="topl">top left</h1>
-        <h1 class="topr">top right</h1>
-        <h1 class="center">center</h1>
-        <h1 class="buttonl">button left</h1>
-        <h1 class="buttonr">button rigth</h1>
+        <div class="topl"><h1>top left</h1></div>
+        <div class="topr"><h1>top right</h1></div>
+        <div class="center"><h1>center</h1></div>
+        <div class="buttonl"><h1>button left</h1></div>
+        <div class="buttonr"><h1>button rigth</h1></div>
     </div>
     <footer>
         <p>desenvolvido por vinicius</p>
