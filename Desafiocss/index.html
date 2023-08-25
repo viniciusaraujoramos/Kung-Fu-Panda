@@ -22,20 +22,16 @@
     }
 
     .container{
-        background-color: black;
         position: relative;
-        padding-top: 50%;
-        padding-left: 50%;
-        padding-bottom: 50%;
-        padding-right: 50%;
-
+        margin-top: 8%;
+        margin-bottom: 8%;
     }
 
     .topl{
         position: absolute;
         top: 10%;
         left: 5%;
-        color: aliceblue;
+        color: rgb(0, 136, 255);
 
     }
 
@@ -43,33 +39,32 @@
         position: absolute;
         top: 10%;
         right: 5%;
-        color: aliceblue;
+        color: rgb(4, 138, 255);
 
     }
 
     .center{
-        position: -webkit-sticky;
-        position: sticky;
-        top: 0%;
-        color: aliceblue;
+        position: absolute;
+        color: rgb(0, 136, 255);
         text-align: center;
         width: 100%;
-
+        top: 50;
+        bottom: 50%;
     }   
 
     .buttonl{
         position: absolute;
         left: 5%;
-        bottom: 2%;
-        color: aliceblue;
+        bottom: 10%;
+        color: rgb(0, 136, 255);
 
     }
 
     .buttonr{
         position: absolute;
         right: 5%;
-        bottom: 2%;
-        color: aliceblue;
+        bottom: 10%;
+        color: rgb(0, 136, 255);
 
     }
 
@@ -85,8 +80,10 @@
         text-align: center;
     }
 
-    .img{
-        
+    img{
+        width: 100%;
+        height: auto;
+        opacity: 0.3;
     }
 
     </style>
@@ -97,7 +94,7 @@
     </header>   
 
     <div class="container">
-        <img src="/img/dreamorks.png" alt="">
+        <img src="img/personagens.jpg" alt="">
         <div class="topl">top left</div>
         <div class="topr">top right</div>
         <div class="center">center</div>
