@@ -29,21 +29,12 @@ section{
     padding-left: 2%;
 }
 
-.itensmenu ul li {
-    display: inline;
-    margin-left: 1%;
-    color: #0D0D0D;
-    font-size: 0.7em;
-    line-height: 1.5;
-}
-
 header{
-    width:100%;
     background-color: #E7EDED;
     position: relative;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    padding: 2.7%;
 }
 
 .menufixo{
@@ -55,13 +46,26 @@ header{
 
 .logo{
     color: #0D0D0D;
-    text-align: center;
-    font-size: 1.4em;
+    font-size: 1.0em;
     margin-top: 1%;
+    position: absolute;
 }
 
 .logotop{
     width: 15%;
+}
+
+.itensmenu ul li {
+    display: inline;
+    color: #0D0D0D;
+    font-size: 0.6em;
+    padding-left: 1%;
+    position: absolute;
+}
+
+.itensmenu{
+    margin-right: 2%;
+    margin-top: 2%;
 }
 
 .fundo{
@@ -71,7 +75,7 @@ header{
 
 .Po{
     width: 100%;
-    margin-top: 9%;
+    margin-top: 7%;
 }
 
 .container{    
