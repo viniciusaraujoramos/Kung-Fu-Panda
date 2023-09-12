@@ -3,13 +3,13 @@ html{
 }
 
 body{
-    background-color: #BEE0E1;
+    background-color: #161616;
     background-attachment: fixed;
     font-family: 'Sigmar', cursive;
 }
 
 h1,h2{
-    color: #0D0D0D;
+    color: #DC6949;
     text-align: center;
     padding-top: 1.5%;
     padding-bottom: 1.5%;
@@ -24,17 +24,18 @@ p{
 }
 
 section{
-    background-color: #E7EDED;
+    background-color: #080604;
     padding-right: 2%;
     padding-left: 2%;
 }
 
 header{
-    background-color: #E7EDED;
+    background-color: #080604;
     position: relative;
     display: flex;
     flex-direction: row;
-    padding: 2.7%;
+    align-items: center;
+    padding: 1%;
 }
 
 .menufixo{
@@ -45,27 +46,30 @@ header{
 }
 
 .logo{
-    color: #0D0D0D;
-    font-size: 1.0em;
-    margin-top: 1%;
-    position: absolute;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: left;
+    width: 50%;
 }
 
 .logotop{
     width: 15%;
 }
 
-.itensmenu ul li {
+.itensmenu ul li { 
     display: inline;
-    color: #0D0D0D;
-    font-size: 0.6em;
-    padding-left: 1%;
-    position: absolute;
+    margin-left: 1%;
+    color:#DC6949;
 }
 
 .itensmenu{
-    margin-right: 2%;
-    margin-top: 2%;
+    margin-right: 1%;
+    margin-top: 1%;
+    position: absolute;
+    right: 3%;
+    top: 30%;
+    width: 70%;
+    text-align: center;
 }
 
 .fundo{
@@ -81,7 +85,7 @@ header{
 .container{    
     width: 80%;
     margin: auto;
-    color: #0D0D0D;
+    color: #F7F6EA;
 }
 
 .listameio li{
@@ -96,8 +100,8 @@ header{
 }
 
 footer{
-    background-color: #E7EDED;
-    color: #0D0D0D;
+    background-color: #080604;
+    color: #F7F6EA;
     font-size: 1.4em;
     text-align: center;
     width: 100%;    
@@ -116,14 +120,6 @@ footer{
 }
 
 .tai{
-    width: 50%;
-}
-
-.lutapo{
-    width: 70%;
-}
-
-.lutashifu{
     width: 50%;
 }
 
@@ -199,28 +195,28 @@ table {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #0D0D0D;
-    color: #E7EDED;
+    background-color: #F7F6EA;
+    color: #080604;
   }
 
   .card-col7{
-    background-image: linear-gradient(to right, rgb(182, 175, 175) , #E7EDED);
+    background-image: linear-gradient(to right, rgb(182, 175, 175) , #080604);
     width: 90%;
     border-width: 5px;
     box-shadow: 15px 15px 15px 2px rgb(182, 175, 175);
     transition: 0.3s; 
-    border-color: #0D0D0D;
+    border-color: #F7F6EA;
     border-style:groove;   
 }
 
 .card-col8{
-    background-image: linear-gradient(to right, rgb(182, 175, 175) , #E7EDED);
+    background-image: linear-gradient(to right, rgb(182, 175, 175) , #080604);
     width: 90%;
     border-width: 5px;
     box-shadow: 15px 15px 15px 2px rgb(182, 175, 175);
     transition: 0.3s;    
     padding-top: 1.5%;
-    border-color: #0D0D0D;
+    border-color: #F7F6EA;
     border-style:groove;
 }
 
