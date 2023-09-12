@@ -62,6 +62,15 @@ header{
     color:#DC6949;
 }
 
+.itensmenu a:hover {
+    color:#080604;
+    padding: 0.8%;    
+    background-color:#DC6949; 
+    text-decoration: none;
+    border-radius: 15%;
+
+}
+
 .itensmenu{
     margin-right: 1%;
     margin-top: 1%;
