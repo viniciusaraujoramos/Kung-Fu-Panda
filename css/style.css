@@ -116,22 +116,6 @@ header{
     float: right;
 }
 
-footer{
-    background-color: #080604;
-    color: #F7F6EA;
-    font-size: 1.4em;
-    text-align: center;
-    width: 100%;    
-}
-
-.github{
-    width: 3%;
-}
-
-.i{
-    width: 3%;
-}
-
 .tai{
     width: 50%;
 }
@@ -144,6 +128,27 @@ footer{
 
 .col-6{
     width: 50%;
+}
+
+.card-col7{
+    background-image: linear-gradient(to right, rgb(182, 175, 175) , #080604);
+    width: 90%;
+    border-width: 5px;
+    box-shadow: 15px 15px 15px 2px rgb(182, 175, 175);
+    transition: 0.3s; 
+    border-color: #F7F6EA;
+    border-style:groove;   
+}
+
+.card-col8{
+    background-image: linear-gradient(to right, rgb(182, 175, 175) , #080604);
+    width: 90%;
+    border-width: 5px;
+    box-shadow: 15px 15px 15px 2px rgb(182, 175, 175);
+    transition: 0.3s;    
+    padding-top: 1.5%;
+    border-color: #F7F6EA;
+    border-style:groove;
 }
 
 @media (max-width: 800px) {
@@ -212,27 +217,6 @@ table {
     color: #080604;
   }
 
-  .card-col7{
-    background-image: linear-gradient(to right, rgb(182, 175, 175) , #080604);
-    width: 90%;
-    border-width: 5px;
-    box-shadow: 15px 15px 15px 2px rgb(182, 175, 175);
-    transition: 0.3s; 
-    border-color: #F7F6EA;
-    border-style:groove;   
-}
-
-.card-col8{
-    background-image: linear-gradient(to right, rgb(182, 175, 175) , #080604);
-    width: 90%;
-    border-width: 5px;
-    box-shadow: 15px 15px 15px 2px rgb(182, 175, 175);
-    transition: 0.3s;    
-    padding-top: 1.5%;
-    border-color: #F7F6EA;
-    border-style:groove;
-}
-
 .listameio{
     list-style-image: url('../img/bambu.png');
 }
@@ -250,11 +234,76 @@ table {
 label, input, textarea, button{
     display: block;
     margin-top: 2%;
-    text-align: center;
     color:#DC6949;
 }
 
 input, textarea, button{
-    width: 100%;
+    width: 90%;
     padding: 1.25rem;
+}
+
+button{
+    margin-left: 5%;
+    border: none;
+    border-radius: 99px;
+    color: #080604;
+    background: #292929;
+    cursor: pointer;
+    margin-bottom: 10%;
+}
+
+button:hover{
+    color:#080604; 
+    background-color:#DC6949; 
+    text-decoration: none;
+}
+
+input, textarea{
+    margin-left: 3%;
+}
+
+input, textarea{
+    margin-bottom: 1rem;
+    background: #292929;
+    border: 0.125rem solid transparent;
+    border-radius: 1.125rem;
+    transition: border-color 0.3s;
+}
+
+input:hover,
+input:focus,
+textarea:hover, 
+textarea:focus {
+    outline:none
+    border: #DC6949;
+}
+
+label{
+    margin-bottom: 0.5rem;
+    margin-left: 3%;
+}
+
+textarea{
+    min-height: 12.5rem;
+    resize: vertical;
+}
+
+.formulario{
+    margin-top: 10%;
+}
+
+.github{
+    width: 3%;
+}
+
+.i{
+    width: 3%;
+}
+
+footer{
+    background-color: #080604;
+    color: #F7F6EA;
+    font-size: 1.4em;
+    text-align: center;
+    width: 100%;    
 }
